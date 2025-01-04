@@ -1,0 +1,14 @@
+.header {
+    background-color: #6256CA; /* Pale blue color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size:2rem;
+  }

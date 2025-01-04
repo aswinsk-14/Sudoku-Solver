@@ -1,0 +1,19 @@
+.sudoku-grid {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px; /* Adjust as needed */
+}
+
+.sudoku-row {
+  display: contents; /* Ensures rows are displayed correctly within the grid */
+}
+
+.grid-cell {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
